@@ -28,8 +28,6 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
-#make errors more pretty and readable
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
 #A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.9.3'
@@ -55,6 +53,8 @@ group :development do
   gem 'guard', '~> 2.18'
   #automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2' , require: false
+  #make errors more pretty and readable
+gem 'better_errors', '~> 2.9', '>= 2.9.1'
 end
 
 group :test do
